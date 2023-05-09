@@ -1,0 +1,54 @@
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia-wrap {
+    padding: 40px 40px 60px 40px;
+    background-color: whitesmoke;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 3px solid #bac9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b2234;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: greenyellow;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+/* .experiencia .row div {
+    height: 250px;
+    background-color: #bac9ff ;
+    border: 3px solid #7e8cc4;
+} */
+
+.experiencia-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges {
+    margin: 5px;
+}

@@ -1,0 +1,74 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b2234 ;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.section-title {
+    font-size: 2rem;
+    padding: 15 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+
+}
+
+.section-text {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    font-size: 1.2rem;
+    margin: 20px;
+
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and  (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px ) {
+    .hero-inferior-img {
+        max-width: 600px;
+    }
+}
