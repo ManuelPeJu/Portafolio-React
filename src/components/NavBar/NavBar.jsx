@@ -10,9 +10,6 @@ const NavBar = () => {
           </button>
 
           <div class="collapse navbar-collapse" id="navbar-toggler">
-            <a class="navbar-brand" href="#home">
-              <img src={Hypers} width="50" alt="Logo página web" />
-            </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mi</a>

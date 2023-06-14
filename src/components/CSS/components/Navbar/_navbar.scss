@@ -1,6 +1,9 @@
 .navbar {
     padding: 2rem;
     background-color: #bac9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-nav a {
     width: 100%;
