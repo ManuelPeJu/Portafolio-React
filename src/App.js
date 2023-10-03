@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import Proyectos from './components/Proyectos/Proyectos';
 import Contacto from './components/Contacto/Contacto';
 import Footer from './components/Footer/Footer';
+import ScrollToTopButton from './components/ScrollTop/ScrollTop';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <section id='footer' className='footer-wrap container-fluid'>
         <Footer />
       </section>
+      <ScrollToTopButton />
     </div>
   );
 }
