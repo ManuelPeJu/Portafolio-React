@@ -16,6 +16,7 @@ const Experiencia = () => {
               <span class="badge text-bg-primary">CSS</span>
               <span class="badge text-bg-primary">Bootstrap</span>
               <span class="badge text-bg-primary">SASS</span>
+              <span class="badge text-bg-primary">Tailwind</span>
               <span class="badge text-bg-primary">JavaScript</span>
               <span class="badge text-bg-primary">React</span>
               <span class="badge text-bg-primary">Redux</span>
